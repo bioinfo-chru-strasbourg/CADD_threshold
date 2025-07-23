@@ -18,16 +18,16 @@ To follow this guide and run the CADDOnc workflow, you will need:
 
 - **Operating System:** Linux or macOS recommended.
 - **Software:**
-  - [HOWARD](https://github.com/bioinfo-chru-strasbourg/howard): The main tool for annotation and processing.
-  - [curl](https://curl.se/): For downloading files from the internet.
-  - [awk](https://www.gnu.org/software/gawk/): For text processing.
-  - [gzip](https://www.gnu.org/software/gzip/), [bgzip/tabix](http://www.htslib.org/): For file compression and indexing.
+  - [HOWARD](https://github.com/bioinfo-chru-strasbourg/howard): an annotation tool starting from version 0.13 (release planned 08/2025) or the [devel branch](https://github.com/bioinfo-chru-strasbourg/howard/tree/devel) (from 20/07/2025).
+  - [curl](https://curl.se/), [awk](https://www.gnu.org/software/gawk/), [gzip](https://www.gnu.org/software/gzip/), [bgzip/tabix](http://www.htslib.org/): tools for download, process and compress files.
 
 - **Databases:**
   - CADD v1.7 for the appropriate genome assembly (e.g. GRCh38/hg38, GRCh37/hg19).
   - ANNOVAR reference gene database for the appropriate genome assembly (e.g. GRCh38/hg38, GRCh37/hg19).
 
 **Note:** Ensure all tools are installed and available in your system's PATH. Sufficient disk space is required for database downloads and processing.
+
+**Note 2:** A section describes how to download and prepare the required CADD and ANNOVAR databases.
 
 ## Init
 
