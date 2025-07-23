@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This documentation provides a step-by-step guide for setting up and running the CADD Optimized (CADDOnc) pathogenicity prediction workflow with [HOWARD](https://github.com/lebechea/howard) tool. The CADDOnc score is designed to classify genetic variants as Pathogenic or Benign on CADD PHRED scores and functional annotations from ANNOVAR. The guide covers requirements, database setup, configuration, and execution of the workflow, enabling users to efficiently annotate and interpret variants using optimized CADD thresholds.
+This documentation provides a step-by-step guide for setting up and running the CADD Optimized (CADDOnc) pathogenicity prediction workflow with [HOWARD](https://github.com/bioinfo-chru-strasbourg/howard) tool. The CADDOnc score is designed to classify genetic variants as Pathogenic or Benign on CADD PHRED scores and functional annotations from ANNOVAR. The guide covers requirements, database setup, configuration, and execution of the workflow, enabling users to efficiently annotate and interpret variants using optimized CADD thresholds.
 
 The commands in this documentation will help you:
 
@@ -18,7 +18,7 @@ To follow this guide and run the CADDOnc workflow, you will need:
 
 - **Operating System:** Linux or macOS recommended.
 - **Software:**
-  - [HOWARD](https://github.com/lebechea/howard): The main tool for annotation and processing.
+  - [HOWARD](https://github.com/bioinfo-chru-strasbourg/howard): The main tool for annotation and processing.
   - [curl](https://curl.se/): For downloading files from the internet.
   - [awk](https://www.gnu.org/software/gawk/): For text processing.
   - [gzip](https://www.gnu.org/software/gzip/), [bgzip/tabix](http://www.htslib.org/): For file compression and indexing.
